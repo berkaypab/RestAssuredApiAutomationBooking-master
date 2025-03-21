@@ -44,8 +44,14 @@ mvn clean install
 mvn allure:report
 
 # View Allure report
-mvn allure:serve
+mvn allure serve allure-results
 ```
+
+#### To view the Allure reports
+1. Setup the Allure in your machine
+  - Go to URL (https://docs.qameta.io/allure/) -> Search for Manual installation -> Steps are mentioned
+2. Go to your project location
+3. Open command prompt -> `allure serve allure-results`
 
 ### Extent Reports
 - Test results are generated in the `extent-test-output` directory
