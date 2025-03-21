@@ -264,6 +264,7 @@ public class BookingTest extends _BaseTest {
         GetAllBookingsResponse[] bookings = filterResponse.as(GetAllBookingsResponse[].class);
         assertThat(bookings, not(emptyArray()));
 
+        //Test
     }
 
     @Step
