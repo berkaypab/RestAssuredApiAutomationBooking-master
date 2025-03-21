@@ -27,7 +27,7 @@ This project is an API test automation framework developed using Rest Assured. I
 
 ```bash
 # Clone the project
-git clone https://github.com/yourusername/RestAssuredApiAutomationBooking.git
+git clone https://github.com/berkaypab/RestAssuredApiAutomationBooking.git
 
 # Navigate to project directory
 cd RestAssuredApiAutomationBooking
